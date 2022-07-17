@@ -676,3 +676,10 @@ footer > a {
     margin-bottom: -132px;
     margin-top: 32px;
 }
+.attribution {
+    color: hsl(168, 34%, 41%);
+}
+.attribution > a {
+    text-decoration: underline;
+    color: hsl(168, 34%, 41%);
+}
