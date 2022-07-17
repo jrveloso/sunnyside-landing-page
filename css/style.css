@@ -21,7 +21,7 @@ span,
 header {
     background: rgb(101, 190, 249);
     box-sizing: inherit;
-    background-image: url("/images/desktop/image-header.jpg");
+    background-image: url("../images/desktop/image-header.jpg");
     background-size: cover;
     background-position: 50%;
     height: 90vh;
@@ -156,11 +156,11 @@ h2 {
 
 #graphic-design {
     color: hsl(167, 40%, 24%);
-    background-image: url("/images/desktop/image-graphic-design.jpg");
+    background-image: url("../images/desktop/image-graphic-design.jpg");
 }
 #photography {
     color: hsl(198, 62%, 26%);
-    background-image: url("/images/desktop/image-photography.jpg");
+    background-image: url("../images/desktop/image-photography.jpg");
 }
 #graphic-design,
 #photography {
