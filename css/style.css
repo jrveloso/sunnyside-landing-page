@@ -34,6 +34,10 @@ header {
     flex-direction: column;
     color: hsl(0, 0%, 100%);
 }
+header > a {
+    margin-left: auto;
+    margin-right: auto;
+}
 #arrow {
     align-self: center;
     margin-top: 280px;
@@ -281,11 +285,17 @@ footer > a {
     gap: 10%;
 }
 #icons img:hover {
-    color: hsl(0, 0%, 100%);
+    -webkit-filter: brightness(250%);
+    -webkit-transition: all 0.05s ease;
+    -moz-transition: all 0.05s ease;
+    -o-transition: all 0.05s ease;
+    -ms-transition: all 0.05s ease;
+    transition: all 0.05s ease;
 }
 
 .attribution {
     background: rgb(73, 210, 189);
+    padding: 10px;
 }
 @media(max-width: 1525px) {
     #testimonials > section {
@@ -501,7 +511,6 @@ footer > a {
         padding-right: 25%;
     }
 }
-
 @media (min-width: 415px) and (max-width: 1000px) {
     .logo {
         font-size: 2.25rem;
@@ -528,7 +537,8 @@ footer > a {
         margin-top: 32px;
     }
     .mobile-menu {
-        width: 90%;
+        width: 20%;
+        margin-left: 58%;
     }
 }
 @media (min-width: 1000px) {
@@ -543,12 +553,14 @@ footer > a {
 }
 @media (max-width: 700px) {
     .mobile-menu {
-        width: 90%;
+        width: 20%;
+        margin-left: 58%;
     }
 }
 @media(max-width: 645px) {
     .mobile-menu {
-        width: 90%;
+        width: 30%;
+        margin-left: 48%;
     }
     h1 {
         font-size: 2.5rem;
@@ -638,12 +650,13 @@ footer > a {
 /*** Mobile menu **/
 
 .mobile-menu {
+    position:absolute;
+    z-index: 2;
     margin-top: 72px;
     background: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-left: 0;
     gap: 32px;
     padding: 48px 5% 64px 5%;
 }
@@ -684,4 +697,10 @@ footer > a {
 .attribution > a {
     text-decoration: underline;
     color: hsl(168, 34%, 41%);
+}
+@media (min-width: 1000px) {
+    .mobile-menu,
+    .triangle {
+        display: none;
+    }
 }
