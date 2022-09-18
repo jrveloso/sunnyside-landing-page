@@ -26,7 +26,7 @@ Users should be able to:
 
 ### What I learned
 
-1.) I really got down and dirty with media queries in this project, which was a big reason I wanted to do it. Still might be a little rough, but leagues beyond what I did in past homework/projects. Tried to make the entire transition from desktop to mobile as fluid as possible, enabling media queries when pictures become distorted, or when text become unpleasant to look at at. 
+1.) I really got down and dirty with media queries in this project, which was a big reason I wanted to do it. Tried to make the entire transition from desktop to mobile as fluid as possible, enabling media queries when pictures become distorted, or when text become unpleasant to look at at. 
 
 2.) I practiced creating a styled clickable menu when the burger icon appears. It took forever to get the tiny triangle positioned correctly throughout viewport size changes, but that only required a 'margin: auto' in the end (wow).
 
@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Continued development
 
-I still want to practice the combination of flexbox and CSS Grid. I don't know how to get rid of the menu if you leave it open and resize the window larger to desktop size (the nav bar returns but the menu remains up and non-closeable unless you resize to the point when the burger reappears.) I also had issues with sizing the background images appropriately as you resize your window. I also did not know how to resize the svg icons and make them change when hovering your cursor over them.
+Theres a bug trying to get rid of the menu. If you leave it open and resize the window larger to desktop size, the nav bar returns but the menu remains up and non-closeable unless you resize to the point when the burger reappears. I also had issues with sizing the background images appropriately as you resize your window. I also did not know how to resize the svg icons and make them change when hovering your cursor over them.
 
 ### Useful resources
 
